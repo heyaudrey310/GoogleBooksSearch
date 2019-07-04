@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import { Container } from "../../components/Grid";
-import { List, ListItem } from "../../components/List";
-import BookBtn from "../../components/BookBtn";
-import Jumbotron from "../../components/Jumbotron";
+import { Container } from "../../components/grid";
+import { List, ListItem } from "../../components/list";
+import BookBtn from "../../components/bookbtn";
+import Jumbotron from "../../components/jumbotron";
 import API from "../../utils/API";
 
 class Results extends Component {
